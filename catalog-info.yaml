@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: demo-jenkins-plugin
   annotations:
-    'jenkins.io/job-full-name': SYNAPSE/CI/Jobs/SynapseServerPreUpload
+    'jenkins.io/job-full-name': SYNAPSE/CI/job/Jobs/job/SynapseServerPreUpload
 spec:
   type: service
   lifecycle: experimental
