@@ -4,3 +4,7 @@ metadata:
   name: demo-jenkins-plugin
   annotations:
     'jenkins.io/job-full-name': SYNAPSE/job/CI/job/Jobs/job/SynapseServerPreUpload
+spec:
+  type: service
+  lifecycle: experimental
+  owner: salavatz
